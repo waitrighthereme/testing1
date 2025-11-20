@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+.header {
+    background-color: aqua;
+    height: 40px;
+}
+.link {
+    text-align: center;
+}
+.link1:link {
+    color: rgb(4, 37, 48);
+}
+.link1:visited {
+    color: rgb(18, 78, 78);
+}
+.general {
+    background-color: azure;
+}
+.general > h2 {
+    color: coral;
+}
+.general > h1 {
+    text-align: center;
+}
+.general > img {
+    border-radius: 20px;
+    border: 2px solid #ef9331;
+}
+.warranty {
+    background-color: #e5861f;
+    border-radius: 10px;
+    border: 2px solid #000;
+    text-align: center;
+    height: 100px;
+    width: 330px;
+}
+.content1 {
+    background-color: rgb(132, 236, 236);
+}
+.content1 > h1 {
+    text-align: center;
+}
+.content1 > h3 {
+    color: darkcyan;
+}
+.td1 {
+    text-align: center;
+    font-weight: 900;
+}
+.content2 {
+    background-color: rgb(119, 192, 192);
+}
+.content2 > h1 {
+    text-align: center;
+}
+.content2 > h2 {
+    color: rgb(10, 46, 46);
+}
+.form_group {
+    margin-top: 15px;
+}
+.input1 {
+    width: 100%;
+    border: 2px solid #000;
+}
+.button1 {
+    text-align: center;
+    width: 50%;
+    background-color: #e5861f;
+    border: 3px solid #4d2d0b;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 1s;
+}
+.button1:hover {
+    background-color: #ff8400;
+    border-radius: 15px;
+    transition: 1s;
+}
+.button1:active {
+    background-color: crimson;
+}
+.content3 {
+    background-color: rgb(154, 215, 215);
+     text-align: center;
+}
+.content3 > h1 {
+    text-align: center;
+}
+.content3 img {
+    border-radius: 30px;
+}
+.content3 button {
+   background-color: #e5861f;
+   border-radius: 3px;
+   border: 2px solid #000;
+}
+.footer {
+    background-color: aqua;
+}
+.footer > h1 {
+    text-align: center;
+}
+.footer > h3 {
+    color: #4d2d0b;
+}
